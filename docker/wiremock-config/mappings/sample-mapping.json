@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/example"
+  },
+  "response": {
+    "status": 200,
+    "body": "This is a sample response from WireMock",
+    "headers": {
+      "Content-Type": "text/plain"
+    }
+  }
+}

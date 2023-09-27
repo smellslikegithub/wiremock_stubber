@@ -1,0 +1,10 @@
+version: '3'
+services:
+  wiremock:
+    image: rodolpheche/wiremock
+    ports:
+      - "3001:8080"
+    volumes:
+      - /F/repos/stubber/stubber/docker/wiremock-config/mappings:/home/wiremock/mappings
+      - /F/repos/stubber/stubber/docker/wiremock-config/__files:/home/wiremock/__files
+    command: ["--verbose"]

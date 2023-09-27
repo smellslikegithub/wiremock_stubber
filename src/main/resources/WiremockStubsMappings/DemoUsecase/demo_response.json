@@ -1,0 +1,10 @@
+{
+  "request": {
+    "url": "/api/endpoint"
+  },
+  "response": {
+    "proxyBaseUrl": "http://actual-service.com",
+    "bodyFileName": "usecase1/response1.json",
+    "status": 200
+  }
+}
